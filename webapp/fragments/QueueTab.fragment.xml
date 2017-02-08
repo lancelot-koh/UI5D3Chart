@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	<IconTabFilter
+		id="queueTab"
+		key="queueTab"
+		text="{i18n>QUEUE}" >
+		<content>
+			<Text text="Queue goes here ..." />
+		</content>
+	</IconTabFilter>
+</core:FragmentDefinition>

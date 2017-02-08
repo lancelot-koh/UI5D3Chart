@@ -1,0 +1,8 @@
+<core:View xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:u="sap.ui.unified" 
+	xmlns="sap.m"
+	controllerName="gogemba.controller.App" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App id="customContent" />
+</core:View>

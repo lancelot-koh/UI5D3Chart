@@ -1,0 +1,37 @@
+<mvc:View controllerName="gogemba.controller.Detail" displayBlock="true" xmlns:c="gogemba.controls" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page id="page" title="{i18n>DETAIL_TITLE}" showNavButton="false" showHeader="false" navButtonPress="onNavBack" class="detailPage">
+		<content>
+			<c:CustomFlexBox id="headerBar" height="10px" width="100%" class="sapHATCHBoxSemiRoundRect"/>
+			<VBox items="{detail>/}" width="100%">
+				<HBox class="sapUiTinyMarginBeginEnd sapUiTinyMarginTop">
+					<VBox>
+						<core:Icon src="sap-icon://navigation-left-arrow" press="onNavBack" class="sapHATCustomIcon"/>
+					</VBox >
+					<VBox width="70%">
+						<Label id="id" text="{detail>WorkCenter}" class="greyLabel"/>
+						<Text id="name" text="{detail>WorkCenterText}"/>
+					</VBox >
+					<VBox width="30%" alignItems="End" justifyContent="End">
+						<HBox>
+							<Text id="status" text="{detail>WorkCenterStatus}"  class="sapUiTinyMarginEnd"/>
+							<Image densityAware="false" src="{path:'detail>WorkCenterStatus', formatter:'gogemba.util.Formatter.getStatusIcon'}"/>
+						</HBox>
+					</VBox>
+				</HBox>
+			</VBox>
+			
+			<IconTabBar id="iconTabBar" expanded="{device>/isNoPhone}"  select="selectTab" selectedKey="currentTab">
+				<items>
+					<core:Fragment
+						fragmentName="gogemba.fragments.OEETab" type="XML"/>
+					<core:Fragment
+						fragmentName="gogemba.fragments.CurrentTab" type="XML"/>
+					<core:Fragment
+						fragmentName="gogemba.fragments.ScrapTab" type="XML"/>
+					<core:Fragment
+						fragmentName="gogemba.fragments.QueueTab" type="XML"/>
+				</items>
+			</IconTabBar>
+		</content>
+	</Page>
+</mvc:View>

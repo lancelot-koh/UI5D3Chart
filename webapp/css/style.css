@@ -1,0 +1,160 @@
+/*  ==== CircleText ========================================================== */
+
+.sapHATCT {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-color:black;
+	border-style: solid;
+	border-width: 0.13em;
+	text-align:center;
+}
+.sapHATCTText {
+	font-size: 0.7em !important;
+	background-color:transparent;
+	text-align:center;
+}
+.sapHATCTSeleted {
+	border-color: white !important;
+	color: white !important;
+}
+.sapHATCTStatusDown {
+	border-color: #A61740 !important;
+	color: #A61740 !important;
+}
+.sapHATCTStatusSetup {
+	border-color: #FFE447 !important;
+	color: #FFE447 !important;
+}
+.sapHATCTStatusRunning {
+	border-color: #1BB355 !important;
+	color: #1BB355 !important;
+}
+.sapHATCTStatusIdle {
+	border-color: #3D7DCA !important;
+	color: #3D7DCA !important;
+}
+
+/*  ==== CustomHBox ========================================================== */
+
+.sapHATCHBoxRoundRect {
+	border-radius: 10px;
+	padding-top: 12px; 
+	margin: 5px 0px;
+	background-color:transparent;
+}
+.sapHATCHBoxSemiRoundRect{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.sapHATCHBoxStatusDown {
+	background-color: #A61740;
+}
+.sapHATCHBoxStatusRunning {
+	background-color: #1BB355;
+}
+.sapHATCHBoxStatusSetup {
+	background-color: #FFE447;
+}
+.sapHATCHBoxStatusIdle {
+	background-color: #3D7DCA;
+}
+
+/*  ==== CustomIconTabBar ========================================================== */
+
+.sapHATITBStatusDown {
+	border-bottom:4px #A61740 solid;
+}
+.sapHATITBStatusRunning {
+	border-bottom:4px #1BB355 solid;
+}
+.sapHATITBStatusSetup {
+	border-bottom:4px #FFE447 solid;
+}
+.sapHATITBStatusIdle {
+	border-bottom:4px #3D7DCA solid;
+}
+
+/*  ==== CustomIcon ============================================================ */
+
+.sapHATCustomIcon{
+	border: none;
+	background:#fff;
+	padding: 5px;
+	margin: 5px 10px 10px 10px;
+	color: #aaa;
+	cursor: pointer;
+} 
+
+/*  ==== OverviewPage ========================================================== */
+
+.overviewPageListItem {
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color:transparent !important;
+}
+.overviewPageLeftPanel {
+	border-right: 1px #eee solid;
+	border-bottom-left-radius: 10px;
+	background-color: #fff;
+}
+.overviewPageRightPanel {
+	border-bottom-right-radius: 10px;
+	background-color: #fff;
+}
+
+/*  ==== DetailPage ========================================================== */
+
+.detailPage {
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	height: 96%;
+}
+/*  ==== Common ========================================================== */
+
+.greyLabel{
+	font-size: 0.6em;
+	color: grey;
+}
+
+/* ================override icon tab bar style start======================== */
+/*.sapMITH {
+	border-bottom:4px #1BB355 solid;
+}*/
+.sapMITBSelected {
+	box-shadow: 1px 10px 0px #FFFFFF;
+	position: static;
+	
+}
+.sapMITBScrollContainer {
+	overflow:visible !important;
+}
+.sapMITBSelected>.sapMITBContentArrow {
+	border-bottom-color: #fff;
+	padding: 0px 10px 0px 10px;
+}
+.sapMITBContainerContent{
+	border-bottom: none; 
+	border-top: none; 
+	position: static;
+	box-shadow: 0 0px 0 rgba(27,179,86,1); 
+}
+.sapMLIB {
+	border-bottom:0px;
+}
+
+.sapMITBHead{
+	overflow:visible;
+	margin: 0rem 1rem 0 1rem;
+}
+.sapMITBTextOnly .sapMITBFilterDefault .sapMITBText {
+	font-size:20px;
+	padding: 0 5px 0 5px;
+	color:#ccc !important;
+}
+.sap-tablet .sapMITBHead, html[data-sap-ui-os=win8] .sapMITBHead {
+	margin: 0rem 0.75rem 0 0.75rem; */
+}
+/* =======================override icon tab bar style end=================== */

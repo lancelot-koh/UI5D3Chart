@@ -1,0 +1,128 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "gogemba",
+		"type": "application",
+		"resources": "resources.json",
+		"i18n": "i18n/messageBundle.properties",
+		"title": "{{APP_TITLE}}",
+		"description": "{{APP_DESCRIPTION}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "ach",
+		"dataSources": {
+			"mainService": {
+				"uri": "/sap/opu/odata/sap/ZTEST_GIRISH_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"comfirmationService": {
+				"uri": "/sap/opu/odata/sap/ZTCS_PROD_CONF_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"offline": true,
+		"sourceTemplate": {
+			"id": "fioritemplate.UI5masterDetailKapselOffline",
+			"version": "1.32.4"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://detail-view",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "gogemba.view.App",
+			"type": "XML",
+			"id": "app"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ushell": {},
+				"sap.viz": {},
+				"sap.suite.ui.commons": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "gogemba.i18n.messageBundle"
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "gogemba.MyRouter",
+				"viewType": "XML",
+				"viewPath": "gogemba.view",
+				"targetAggregation": "pages",
+				"clearTarget": false
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "overview",
+					"view": "Overview",
+					"targetControl": "customContent",
+					"subroutes": [
+						{
+							"pattern": "Detail",
+							"name": "detail",
+							"view": "Detail"
+						}
+					]
+				},
+				{
+					"name": "catchallMaster",
+					"view": "Overview",
+					"targetControl": "customContent"
+				}
+			]
+		}
+	},
+	"sap.mobile": {
+		"_version": "1.1.0",
+		"definingRequests": {}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
+	}
+}

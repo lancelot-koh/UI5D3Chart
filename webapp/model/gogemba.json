@@ -1,0 +1,950 @@
+{
+	"Machine":	[
+		{
+			"WorkCenter": "JMW-ARB1",
+			"WorkCenterText": "Machine 1",
+			"WorkCenterStatus" : "down",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 35000,
+			"MfgOrderConfirmedScrapQty" : 10500,
+			"MfgOrderPlannedEndDate" : "2016-05-10",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-01",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-02",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-03",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": 32000,
+					"ConfirmationScrapQuantity" : 8000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": 40000,
+					"ConfirmationScrapQuantity" : 9500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": 35000,
+					"ConfirmationScrapQuantity" : 10500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB2",
+			"WorkCenterText": "Machine 2",
+			"WorkCenterStatus" : "running",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 40000,	
+			"MfgOrderConfirmedScrapQty" : 9500,
+			"MfgOrderPlannedEndDate" : "2016-05-11",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-02",
+					"MfgOrderPlannedQty" : 5000,
+					"ConfirmationYieldQuantity" : 3000,
+					"ConfirmationScrapQuantity" : 200
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-03",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 16500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 19500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": 32000,
+					"ConfirmationScrapQuantity" : 8000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": 40000,
+					"ConfirmationScrapQuantity" : 9500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB3",
+			"WorkCenterText": "Machine 3",
+			"WorkCenterStatus" : "set up",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 32000,	
+			"MfgOrderConfirmedScrapQty" : 8000,
+			"MfgOrderPlannedEndDate" : "2016-05-12",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-03",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": 32000,
+					"ConfirmationScrapQuantity" : 8000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-15",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB4",
+			"WorkCenterText": "Machine 4",
+			"WorkCenterStatus" : "idle",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 22500,	
+			"MfgOrderConfirmedScrapQty" : 7500,
+			"MfgOrderPlannedEndDate" : "2016-05-13",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-15",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-16",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB5",
+			"WorkCenterText": "Machine 5",
+			"WorkCenterStatus" : "running",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 18500,	
+			"MfgOrderConfirmedScrapQty" : 6000,
+			"MfgOrderPlannedEndDate" : "2016-05-14",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-15",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-16",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-17",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB6",
+			"WorkCenterText": "Machine 6",
+			"WorkCenterStatus" : "running",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 35000,	
+			"MfgOrderConfirmedScrapQty" : 10500,
+			"MfgOrderPlannedEndDate" : "2016-05-15",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-01",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-02",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-03",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": 32000,
+					"ConfirmationScrapQuantity" : 8000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": 40000,
+					"ConfirmationScrapQuantity" : 9500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": 35000,
+					"ConfirmationScrapQuantity" : 10500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB7",
+			"WorkCenterText": "Machine 7",
+			"WorkCenterStatus" : "set up",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 32000,	
+			"MfgOrderConfirmedScrapQty" : 8000,
+			"MfgOrderPlannedEndDate" : "2016-05-16",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-03",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-04",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": 22500,
+					"ConfirmationScrapQuantity" : 7500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": 32000,
+					"ConfirmationScrapQuantity" : 8000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-15",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		},
+		{
+			"WorkCenter": "JMW-ARB8",
+			"WorkCenterText": "Machine 8",
+			"WorkCenterStatus" : "idle",
+			"MfgOrderPlannedTotalQty" : 60000,
+			"MfgOrderConfirmedYieldQty" : 18500,	
+			"MfgOrderConfirmedScrapQty" : 6000,
+			"MfgOrderPlannedEndDate" : "2016-05-17",
+			"Accuracy" : -1,
+			"BurnDown":	[
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-05",
+					"MfgOrderPlannedQty" : 0,
+					"ConfirmationYieldQuantity" : 0,
+					"ConfirmationScrapQuantity" : 0
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-06",
+					"MfgOrderPlannedQty": 5000,
+					"ConfirmationYieldQuantity": 4500,
+					"ConfirmationScrapQuantity" : 500
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-07",
+					"MfgOrderPlannedQty": 10000,
+					"ConfirmationYieldQuantity": 9450,
+					"ConfirmationScrapQuantity" : 1600
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-08",
+					"MfgOrderPlannedQty": 15000,
+					"ConfirmationYieldQuantity": 13500,
+					"ConfirmationScrapQuantity" : 3100
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-09",
+					"MfgOrderPlannedQty": 20000,
+					"ConfirmationYieldQuantity": 18500,
+					"ConfirmationScrapQuantity" : 6000
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-10",
+					"MfgOrderPlannedQty": 25000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-11",
+					"MfgOrderPlannedQty": 30000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-12",
+					"MfgOrderPlannedQty": 35000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-13",
+					"MfgOrderPlannedQty": 40000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-14",
+					"MfgOrderPlannedQty": 45000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-15",
+					"MfgOrderPlannedQty": 50000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-16",
+					"MfgOrderPlannedQty": 55000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				},
+				{
+					"MfgOrderConfirmationEntryDate": "2016-03-17",
+					"MfgOrderPlannedQty": 60000,
+					"ConfirmationYieldQuantity": "",
+					"ConfirmationScrapQuantity" : ""
+				}
+			]
+		}
+	],
+	"WorkCenterStatus":	[
+		{
+			"Category": "Procedure",
+			"Value" : 55
+		},
+		{
+			"Category": "StandBy",
+			"Value" : 25
+		},
+		{
+			"Category": "Setup",
+			"Value" : 5
+		},
+		{
+			"Category": "WaitForParts",
+			"Value" : 10
+		},
+		{
+			"Category": "Down",
+			"Value" : 5
+		}	
+	],
+	"DowntimeReasons":	[
+		{
+			"Category": "Tooling Failure",
+			"Value" : 50
+		},
+		{
+			"Category": "Equipment Failure",
+			"Value" : 25
+		},
+		{
+			"Category": "Material Shortage",
+			"Value" : 13
+		},
+		{
+			"Category": "Operator Shortage",
+			"Value" : 7
+		},
+		{
+			"Category": "Major Adjustment",
+			"Value" : 5
+		}	
+	],
+	"ScrapReasons":	[
+		{
+			"Category": "Raw Material Defect",
+			"Value" : 75
+		},
+		{
+			"Category": "Poor Surface Finish",
+			"Value" : 25
+		}
+	],
+	"ScarpInLast30Days":	[
+		{
+			"Category": "2016-03-1",
+			"Value" : "40"
+		},
+		{
+			"Category": "2016-03-2",
+			"Value" : "55"
+		},
+		{
+			"Category": "2016-03-3",
+			"Value" : "65"
+		},
+		{
+			"Category": "2016-03-4",
+			"Value" : "60"
+		},
+		{
+			"Category": "2016-03-5",
+			"Value" : "65"
+		},
+		{
+			"Category": "2016-03-6",
+			"Value" : "60"
+		},	
+		{
+			"Category": "2016-03-7",
+			"Value" : "65"
+		},
+		{
+			"Category": "2016-03-8",
+			"Value" : "55"
+		},
+		{
+			"Category": "2016-03-9",
+			"Value" : "70"
+		},
+		{
+			"Category": "2016-03-10",
+			"Value" : "75"
+		},
+		{
+			"Category": "2016-03-11",
+			"Value" : "85"
+		},
+		{
+			"Category": "2016-03-12",
+			"Value" : "80"
+		},
+		{
+			"Category": "2016-03-13",
+			"Value" : "90"
+		},
+		{
+			"Category": "2016-03-14",
+			"Value" : "100"
+		},
+		{
+			"Category": "2016-03-15",
+			"Value" : "110"
+		},
+		{
+			"Category": "2016-03-16",
+			"Value" : "105"
+		},	
+		{
+			"Category": "2016-03-17",
+			"Value" : "115"
+		},
+		{
+			"Category": "2016-03-18",
+			"Value" : "110"
+		},
+		{
+			"Category": "2016-03-19",
+			"Value" : "100"
+		},
+		{
+			"Category": "2016-03-20",
+			"Value" : "130"
+		},
+		{
+			"Category": "2016-03-21",
+			"Value" : "140"
+		},
+		{
+			"Category": "2016-03-22",
+			"Value" : "150"
+		},
+		{
+			"Category": "2016-03-23",
+			"Value" : "155"
+		},	
+		{
+			"Category": "2016-03-24",
+			"Value" : "160"
+		},
+		{
+			"Category": "2016-03-25",
+			"Value" : "159"
+		},
+		{
+			"Category": "2016-03-26",
+			"Value" : "165"
+		},
+		{
+			"Category": "2016-03-27",
+			"Value" : "180"
+		},
+		{
+			"Category": "2016-03-28",
+			"Value" : "190"
+		},
+		{
+			"Category": "2016-03-29",
+			"Value" : "175"
+		},
+		{
+			"Category": "2016-03-30",
+			"Value" : "200"
+		}	
+	],
+	"ScarpInLastDays":	[
+		{
+			"Category": "2016-03-24",
+			"Value" : "80"
+		},
+		{
+			"Category": "2016-03-25",
+			"Value" : "100"
+		},
+		{
+			"Category": "2016-03-26",
+			"Value" : "175"
+		},
+		{
+			"Category": "2016-03-27",
+			"Value" : "180"
+		},
+		{
+			"Category": "2016-03-28",
+			"Value" : "190"
+		},
+		{
+			"Category": "2016-03-29",
+			"Value" : "175"
+		},
+		{
+			"Category": "2016-03-30",
+			"Value" : "200"
+		}		
+	],
+	"Productivity":	[
+		{
+			"Category": "2014",
+			"Running" : "60",
+			"StandBy":25,
+			"Down":15
+		},
+		{
+			"Category": "2015",
+			"Running" : "50",
+			"StandBy":25,
+			"Down":25
+		},
+		{
+			"Category": "2016",
+			"Running" : "80",
+			"StandBy":12,
+			"Down":8
+		}
+	]
+}

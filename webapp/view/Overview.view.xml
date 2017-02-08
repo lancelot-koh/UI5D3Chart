@@ -1,0 +1,54 @@
+<mvc:View controllerName="gogemba.controller.Overview" displayBlock="true" xmlns:c="gogemba.controls" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page id="page" title="{i18n>APP_TITLE}">
+		<content>
+			<List growing="true" id="list" items="{json>/Machine}" mode="SingleSelectMaster"
+				noDataText="{i18n>NO_DATA_TEXT}" selectionChange="onSelectionChange" updateFinished="onUpdateFinished">
+				<CustomListItem class="overviewPageListItem">
+					<c:CustomFlexBox alignItems="Start" status="{json>WorkCenterStatus}" class="sapHATCHBoxRoundRect">
+						<VBox width="15%" height="105px" class="overviewPageLeftPanel" alignItems="Center" justifyContent="Center">
+							<c:CircleText id="accuracy" width="50px" height="50px"
+								 text="{path:'Accuracy', formatter:'gogemba.util.Formatter.getAccuracy'}" 
+								 status="{json>WorkCenterStatus}" />
+						</VBox>
+						<VBox width="85%" height="105px" class="overviewPageRightPanel">
+							<HBox class="sapUiTinyMargin">
+								<VBox width="50%">
+									<Label id="id" text="{json>WorkCenter}" class="greyLabel"/>
+									<Text id="name" text="{json>WorkCenterText}"/>
+								</VBox >
+								<VBox width="50%" alignItems="End">
+									<HBox>
+										<Text id="status" text="{json>WorkCenterStatus}" class="sapUiTinyMarginEnd"/>
+										<Image densityAware="false" src="{path:'json>WorkCenterStatus', formatter:'gogemba.util.Formatter.getStatusIcon'}"/>
+									</HBox>
+								</VBox>
+							</HBox>
+							<HBox id="chartContainer" alignItems="Start" width="100%" visible="false"/>
+							<HBox class="sapUiTinyMargin">
+								<VBox width="40%">
+									<Label text="{i18n>COMPLETED_UPPERCASE}" class="greyLabel"/>
+									<HBox>
+									<Text id="yieldQty" text="{path:'json>MfgOrderConfirmedYieldQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+									<Text text="/"/>
+									<Text id="plannedQty" text="{path:'json>MfgOrderPlannedTotalQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+									</HBox>
+								</VBox >
+								 <VBox width="35%" >
+									<Label text="{i18n>FINISH_UPPERCASE}" class="greyLabel"/>
+									<Text id="endDate" text="{path:'json>MfgOrderPlannedEndDate', formatter:'gogemba.util.Formatter.getDate'}"/>
+								</VBox>
+								 <VBox width="25%">
+									<Label text="{i18n>SCRAP_UPPERCASE}" class="greyLabel"/>
+									<Text id="scrapQty" text="{path:'json>MfgOrderConfirmedScrapQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+								</VBox>
+							</HBox>
+						</VBox>
+					</c:CustomFlexBox>
+					<customData>
+						<core:CustomData  key="workCenter" value="{json>WorkCenter}" />
+					</customData>
+				</CustomListItem>
+			</List>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,59 @@
+<core:FragmentDefinition xmlns:c="sap.suite.ui.commons" xmlns:viz="sap.viz.ui5.controls"  xmlns:core="sap.ui.core"
+	xmlns="sap.m">
+	<IconTabFilter
+		id="scrapTab"
+		key="scrapTab"
+		text="{i18n>SCRAP}">
+		<content>
+			<Carousel>
+				<pages>
+					<viz:VizFrame id="scrapReasonsChart"/>
+					<c:ChartContainer
+						id="scrapLineChartContainer"
+						showFullScreen="false"
+						showPersonalization="false"
+						autoAdjustHeight="false"
+						showZoom="false"
+						showLegend="false"
+						showLegendButton="false">
+							<c:customIcons>
+								<core:Icon id="scrapLineChartTableIcon" src="sap-icon://table-chart" width="2em" press="scrapLineChartTablePress"> 
+								</core:Icon> 
+							</c:customIcons>
+							<c:content>
+								<c:ChartContainerContent
+									icon = "sap-icon://line-chart" 
+									title = ""> 
+									<c:content>
+										<viz:VizFrame id="scrapLineChart"/>
+									</c:content>
+								</c:ChartContainerContent>
+							</c:content>	
+						</c:ChartContainer>
+						<c:ChartContainer
+							id="scrapColumnChartContainer"
+							showFullScreen="false"
+							showPersonalization="false"
+							autoAdjustHeight="false"
+							showZoom="fasle"
+							showLegend="false"
+							showLegendButton="false">
+							<c:customIcons>
+								<core:Icon id="scarpColumnChartTableIcon" src="sap-icon://table-chart"  width="2em" press="scrapColumnChartTablePress"> 
+								</core:Icon> 
+							</c:customIcons>
+							<c:content>
+								<c:ChartContainerContent
+									icon = "sap-icon://line-chart" 
+									title = ""> 
+									<c:content>
+										<viz:VizFrame id="scrapColumnChart"/>
+									</c:content>
+								</c:ChartContainerContent>
+							</c:content>	
+						</c:ChartContainer>
+				</pages>
+			</Carousel>
+		</content>
+	</IconTabFilter>
+</core:FragmentDefinition>

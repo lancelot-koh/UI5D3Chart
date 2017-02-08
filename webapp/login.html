@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		
+		<script src="resources/sap-ui-core.js"
+			id="sap-ui-bootstrap"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_bluecrystal">
+		</script>
+
+		<style>  
+			.myBackgroundStyle .sapMPageBgStandard {  
+				background-image: url('app/images/background.jpg');  
+				background-size: 100% 100%;
+			}  
+
+			.myCustomText {
+			  color: white;
+			}
+		</style>
+		
+		<script type="text/javascript" src="../cordova.js"></script>
+		
+		<script>
+			sap.ui.localResources("app");
+			var app = new sap.m.App();
+			var page = sap.ui.view({id:"loginPage", viewName:"app.Login", type:sap.ui.core.mvc.ViewType.XML});
+			page.addStyleClass("myBackgroundStyle");
+			app.addPage(page);
+			app.placeAt("content");
+
+			var i18nModel = new sap.ui.model.resource.ResourceModel({
+				bundleUrl : "app/i18n/i18n.properties"
+			});
+			sap.ui.getCore().setModel(i18nModel, "i18n");
+		</script>
+	</head>
+	
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

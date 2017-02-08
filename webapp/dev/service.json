@@ -1,0 +1,9 @@
+{
+	"logon": true,
+	"host": "xxxx.hana.ondemand.com",
+	"port": "443",
+	"https": "true",
+	"appID": "com.xxx.gogemba",
+	"device": true,
+	"network": true
+}

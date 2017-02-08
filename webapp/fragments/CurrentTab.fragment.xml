@@ -1,0 +1,54 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+	xmlns="sap.m"
+	xmlns:c="gogemba.controls">
+	<IconTabFilter
+		id="currentTab"
+		key="currentTab"
+		text="{i18n>CURRENT}">
+		<content>
+			<Carousel>
+				<pages>
+					<VBox>
+						<VBox id="burnDownChartContainer" alignItems="Start" class="sapUiTinyMargin" />
+						<List id="currentList" items="{detail>/}">
+							<CustomListItem>
+								<HBox class="sapUiSmallMargin">
+									<Title text="{i18n>CURRENT_TITLE}"/>
+								</HBox>
+								<HBox class="sapUiSmallMargin">
+									<VBox width="33%">
+										<Label text="{i18n>PLANNED_QTY}"/>
+										<Text id="planQty" text="{path:'detail>MfgOrderPlannedTotalQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+									</VBox >
+									 <VBox width="34%" >
+										<Label text="{i18n>YIELD_QTY}"/>
+										<Text id="yieldQty" text="{path:'detail>MfgOrderConfirmedYieldQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+									</VBox>
+									 <VBox width="33%" >
+										<Label text="{i18n>SCRAP}"/>
+										<Text id="scrapQty" text="{path:'detail>MfgOrderConfirmedScrapQty', formatter:'gogemba.util.Formatter.getNumber'}"/>
+									</VBox>
+								</HBox>
+								<HBox class="sapUiSmallMargin">
+									<VBox width="33%">
+										<Label text="{i18n>OPEN_QTY}"/>
+										<Text id="openQty" text="{= ${detail>MfgOrderPlannedTotalQty} - ${detail>MfgOrderConfirmedYieldQty}}"/>
+									</VBox >
+									 <VBox width="34%" >
+										<Label text="{i18n>FINISH_DATE}"/>
+										<Text id="endDate" text="{path:'detail>MfgOrderPlannedEndDate', formatter:'gogemba.util.Formatter.getDate'}"/>
+									</VBox>
+								</HBox>
+								<HBox class="sapUiTinyMargin">
+									<c:CircleText id="accuracy" width="50px" height="50px"
+							 			text="{path:'detail>Accuracy', formatter:'gogemba.util.Formatter.getAccuracy'}" 
+										status="{detail>WorkCenterStatus}"  />
+								</HBox>
+							</CustomListItem>
+						</List>
+					</VBox>
+				</pages>
+			</Carousel>
+		</content>
+	</IconTabFilter>
+</core:FragmentDefinition>

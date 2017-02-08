@@ -1,0 +1,15 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+	controllerName="app.Login" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>APP_TITLE}">
+		<content>
+			<VBox class="sapUiSmallMargin">
+				<Text class="myCustomText sapUiSmallMarginBottom" text="{i18n>HEADER_TEXT}" />
+				<Input id="username" placeholder="{i18n>USERNAME}" value="" liveChange="onLoginInfoChanged"/>
+				<Input id="password" placeholder="{i18n>PASSWORD}" type="Password" value="" liveChange="onLoginInfoChanged"/>
+				<HBox alignItems="Center" justifyContent="Center">
+					<Button id="login" enabled="false" text="{i18n>LOG_IN}" press="btnClicked"/>
+				</HBox>
+			</VBox>
+		</content>
+	</Page>
+</core:View>
